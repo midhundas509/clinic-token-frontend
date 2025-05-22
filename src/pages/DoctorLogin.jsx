@@ -27,6 +27,7 @@ const DoctorLogin = () => {
                 <input
                   type="text"
                   id="doctor-username"
+                  placeholder=" "
                   value={credentials.username}
                   onChange={(e) => setCredentials({ ...credentials, username: e.target.value })}
                   required
@@ -37,6 +38,7 @@ const DoctorLogin = () => {
                 <input
                   type="password"
                   id="doctor-password"
+                  placeholder=" "
                   value={credentials.password}
                   onChange={(e) => setCredentials({ ...credentials, password: e.target.value })}
                   required
